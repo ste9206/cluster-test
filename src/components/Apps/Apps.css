@@ -1,0 +1,156 @@
+.submenuWrapper .content{
+    background: rgba(0, 0, 0, .8);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.submenuWrapper .content{
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.submenuWrapper .content .inliner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+    width: 100%;
+}
+
+.submenuWrapper .content .inliner .content-title{
+    margin-left: 2%;
+    font-size: 1.2em;
+    padding-right: 4%;
+    width: 53%;
+}
+
+
+
+.submenuWrapper .content .minicolor.pink{
+    width: 5px;
+    background: linear-gradient(-45deg,#b411cd,#f501b5);
+}
+
+.submenuWrapper .content .minicolor.purple{
+    width: 5px;
+    background: linear-gradient(-45deg,#2035f5,#5f24e4);
+}
+
+.submenuWrapper .content .minicolor.cyan{
+    width: 5px;
+    background: linear-gradient(-45deg,#0097fe,#02c5fb );
+}
+
+.submenuWrapper .content .minicolor.aquamarine{
+    width: 5px;
+    background: linear-gradient(-45deg,#20d3ae,#35e486);
+}
+.submenuWrapper .content .minicolor.green{
+    width: 5px;
+    background: linear-gradient(-45deg,#5fe331,#72fc05);
+}
+
+
+
+/*
+.server-running.hadoop{
+ 
+}
+
+.server-running.rails{
+  
+}
+
+.server-running.chronos{
+   
+}
+
+.server-running.storm{
+
+  
+}
+
+.server-running.spark{
+    
+}
+
+*/
+
+
+
+.submenuWrapper .content .inliner .circle-mini {
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    padding: 3%;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 0px 0px 8.73px 0.27px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.submenuWrapper .content .inliner .circle-mini.minus {
+    margin-right: 4%;
+}
+
+.submenuWrapper .content .inliner .circle-mini.minus{
+    margin-right: 4%;
+}
+
+
+
+.submenuWrapper .content .inliner .circle-mini.plus.pink  {
+    border: 1px solid linear-gradient(-45deg,#b411cd,#f501b5);
+    background: linear-gradient(-45deg,#b411cd,#f501b5);
+}
+.submenuWrapper .content .inliner .circle-mini.minus.pink  {
+    border: 1px solid linear-gradient(-45deg,#b411cd,#f501b5);
+    background: linear-gradient(-45deg,#b411cd,#f501b5);
+}
+
+.submenuWrapper .content .inliner .circle-mini.minus.purple  {
+    border: 1px solid linear-gradient(-45deg,#2035f5,#5f24e4);
+    background: linear-gradient(-45deg,#2035f5,#5f24e4);
+}
+
+.submenuWrapper .content .inliner .circle-mini.plus.purple  {
+    border: 1px solid linear-gradient(-45deg,#2035f5,#5f24e4);
+    background: linear-gradient(-45deg,#2035f5,#5f24e4);
+}
+
+.submenuWrapper .content .inliner .circle-mini.minus.aquamarine  {
+    border: 1px solid  linear-gradient(-45deg,#20d3ae,#35e486);
+    background: linear-gradient(-45deg,#20d3ae,#35e486);
+}
+
+.submenuWrapper .content .inliner .circle-mini.plus.aquamarine  {
+    border: 1px solid  linear-gradient(-45deg,#20d3ae,#35e486);
+    background: linear-gradient(-45deg,#20d3ae,#35e486);
+}
+
+.submenuWrapper .content .inliner .circle-mini.minus.green  {
+    border: 1px solid linear-gradient(-45deg,#5fe331,#72fc05);
+    background: linear-gradient(-45deg,#5fe331,#72fc05);
+}
+
+.submenuWrapper .content .inliner .circle-mini.plus.green  {
+    border: 1px solid linear-gradient(-45deg,#5fe331,#72fc05);
+    background: linear-gradient(-45deg,#5fe331,#72fc05);
+}
+.submenuWrapper .content .inliner .circle-mini.minus.cyan {
+    border: 1px solid linear-gradient(-45deg,#0097fe,#02c5fb );;
+    background: linear-gradient(-45deg,#0097fe,#02c5fb );
+}
+.submenuWrapper .content .inliner .circle-mini.plus.cyan {
+    border: 1px solid linear-gradient(-45deg,#0097fe,#02c5fb );;
+    background: linear-gradient(-45deg,#0097fe,#02c5fb );
+}

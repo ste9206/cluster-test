@@ -1,0 +1,25 @@
+export const CLOSE_DIALOG = 'CLOSE_DIALOG';
+export const ADDING_SERVER = 'ADDING_SERVER';
+export const REMOVING_SERVER = 'REMOVING_SERVER';
+export const SERVER_ADDED = 'SERVER_ADDED';
+export const SERVER_REMOVED = 'SERVER_REMOVED';
+export const NO_MORE_SPACE = 'NO_MORE_SPACE';
+export const NOTHING_REMOVE = 'NOTHING_REMOVE';
+export const REMOVE_APP_SUCCESS = 'REMOVE_APP_SUCCESS';
+export const ADD_INSTANCE_SUCCESS = 'ADD_INSTANCE_SUCCESS';
+export const REMOVING_LAST_APP_INSTANCE = 'REMOVING_LAST_APP_INSTANCE';
+export const LOADING_CLUSTER = 'LOADING_CLUSTER';
+export const CLUSTER_LOADED = 'CLUSTER_LOADED';
+
+export const closeDialog = () => dispatch =>  dispatch({ type: CLOSE_DIALOG });
+export const addingServer = () => dispatch => dispatch({type:ADDING_SERVER});
+export const removingServer = () => dispatch => dispatch({type:REMOVING_SERVER});
+export const serverAdded = () => dispatch => dispatch({type:SERVER_ADDED});
+export const serverRemoved = () => dispatch => dispatch({type:SERVER_REMOVED});
+export const noMoreSpace = () => dispatch => dispatch({ type: NO_MORE_SPACE });
+export const removingLastAppInstance = () => dispatch => dispatch({ type:REMOVING_LAST_APP_INSTANCE });
+export const nothingToRemove = () => dispatch => dispatch({ type: NOTHING_REMOVE });
+export const removeLastAppSuccess = () => dispatch => dispatch ( {type:REMOVE_APP_SUCCESS});
+export const addInstanceSuccess = () => dispatch => dispatch({type:ADD_INSTANCE_SUCCESS});
+export const loadCluster = () => dispatch => dispatch ({type: LOADING_CLUSTER});
+export const clusterLoaded = () => dispatch => dispatch ({type: CLUSTER_LOADED});

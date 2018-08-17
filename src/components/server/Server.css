@@ -1,0 +1,81 @@
+.canvas{
+    border: 1px solid #000;
+    width: 90%;
+    height: 90%;
+    background: rgba(255, 255, 255, .2);
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+.canvas:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.server-running{
+    border: 1px solid #000;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    background: linear-gradient(to right bottom, pink, purple);
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+.server-running h3{
+    color: #fff;
+    font-weight: bold;
+}
+
+.server-running h4{
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.server-running h6{
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.server-running.hadoop{
+    background: linear-gradient(-45deg,#b411cd,#f501b5);
+}
+
+.server-running.rails{
+    background: linear-gradient(-45deg,#2035f5,#5f24e4);
+}
+
+.server-running.chronos{
+    background: linear-gradient(-45deg,#0097fe,#02c5fb );
+}
+
+.server-running.storm{
+    background: linear-gradient(-45deg,#20d3ae,#35e486);
+  
+}
+
+.server-running.spark{
+    background: linear-gradient(-45deg,#5fe331,#72fc05);
+}
+
+.server-running:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

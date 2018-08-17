@@ -1,0 +1,24 @@
+.serverWrapper{
+    background: #000000;
+    width: 85%;
+}
+
+.secondWrapper h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.custom{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.secondWrapper{
+    margin: 0 auto;
+    max-width: 90%;
+}
